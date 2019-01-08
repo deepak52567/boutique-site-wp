@@ -27,7 +27,10 @@
         setup_postdata( $post );
     ?>
         <div class="item" title=<?php the_title(); ?> 
-            style="background-image: url("<?php echo get_the_post_thumbnail('url'); ?>");">
+            <?php if (has_post_thumbnail( $post->ID ) ): ?>
+                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
+            style="background-image: url('<?php echo $image[0]; ?>');">
+            <?php endif; ?>
         </div>
         <?php endforeach; ?>
         <?php wp_reset_postdata(); ?>
