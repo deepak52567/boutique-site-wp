@@ -4,7 +4,9 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>BAJAJ BOUTIQUE</title>
+    <?php $topPage = get_field('top_title'); ?>
+    
+    <title><?php echo $topPage['title']; ?></title>
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <?php
         function add_theme_scripts() {
