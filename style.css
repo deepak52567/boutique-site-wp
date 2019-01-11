@@ -37,8 +37,8 @@ header {
   padding: 0 3rem;
   color: #4d4d4d;
   font-size: 1rem;
-  -webkit-box-shadow: 0 -15px 80px -20px #e7d4cf;
-          box-shadow: 0 -15px 80px -20px #e7d4cf;
+  -webkit-box-shadow: 0 -15px 80px -20px #999999;
+          box-shadow: 0 -15px 80px -20px #999999;
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
