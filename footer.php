@@ -17,17 +17,6 @@
     //    }) 
     // });
 
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
-            });
-            document.getElementsByClassName('menu-con')[0].classList.toggle('active');
-        });
-    });
-
     document.getElementsByClassName('ham-menu')[0].addEventListener('click', function(){
         document.getElementsByClassName('menu-con')[0].classList.toggle('active');
     })
