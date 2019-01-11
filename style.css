@@ -37,8 +37,8 @@ header {
   padding: 0 3rem;
   color: #4d4d4d;
   font-size: 1rem;
-  -webkit-box-shadow: 0 -15px 80px -20px #00f2a7;
-          box-shadow: 0 -15px 80px -20px #00f2a7;
+  -webkit-box-shadow: 0 -15px 80px -20px #e6d3cf;
+          box-shadow: 0 -15px 80px -20px #e6d3cf;
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
@@ -51,7 +51,7 @@ header {
     height: calc(100vh - 4.5rem);
     left: 0;
     right: 0;
-    background: #f7fffd;
+    background: white;
     list-style: none;
     display: -webkit-box;
     display: -webkit-flex;
@@ -80,12 +80,12 @@ header {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
     header .menu-con li {
-      color: #00f2a7;
+      color: gray;
       font-size: 2.5rem;
       margin: 0.5em 0; }
       header .menu-con li:hover {
-        -webkit-text-decoration: underline #00f2a7;
-                text-decoration: underline #00f2a7;
+        -webkit-text-decoration: underline #e6d3cf;
+                text-decoration: underline #e6d3cf;
         -webkit-text-decoration-style: double;
                 text-decoration-style: double; }
       header .menu-con li a {
@@ -97,7 +97,7 @@ header {
   header .ham-menu {
     padding: 0.5em;
     font-size: 1.5rem;
-    color: #00f2a7; }
+    color: #666666; }
   header .contact-con {
     display: -webkit-box;
     display: -webkit-flex;
@@ -118,9 +118,9 @@ header {
       position: relative; }
       header .contact-con a i {
         margin-right: 0.5rem;
-        color: #00f2a7; }
+        color: #e6d3cf; }
       header .contact-con a::after {
-        background: rgba(0, 242, 167, 0.05);
+        background: rgba(230, 211, 207, 0.15);
         -webkit-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
@@ -168,13 +168,13 @@ section {
       position: absolute;
       top: 6vw;
       left: -40vw;
-      color: rgba(0, 242, 167, 0.05);
+      color: rgba(230, 211, 207, 0.2);
       font-size: 60vw; }
     section.top-main .head {
       margin: 1em 0 1em 0;
       text-align: center; }
       section.top-main .head h1 {
-        color: #00f2a7;
+        color: #666666;
         font-size: 5rem;
         text-transform: uppercase;
         font-family: 'Courgette', cursive;
@@ -194,14 +194,14 @@ section {
         line-height: 1.2rem;
         font-weight: normal;
         font-size: 1.2rem;
-        color: #00f2a7; }
+        color: #e6d3cf; }
       section.top-main .time-con p {
         color: #666666;
         margin: 0;
         font-weight: bold;
         font-size: 1.6rem; }
     section.top-main .contact-con {
-      background: rgba(0, 242, 167, 0.05);
+      background: rgba(230, 211, 207, 0.2);
       -webkit-border-radius: 6px;
               border-radius: 6px;
       padding: 0.8em 2em;
@@ -220,7 +220,7 @@ section {
         margin-right: 0.5em;
         -webkit-transform: rotateY(180deg);
                 transform: rotateY(180deg);
-        color: #00f2a7; }
+        color: #e6d3cf; }
       section.top-main .contact-con h5 {
         margin: 0;
         font-family: 'Rubik', sans-serif; }
@@ -273,7 +273,7 @@ section {
       section.gallery-main .banner .arrow {
         z-index: 2;
         width: 2rem;
-        background: #00f2a7;
+        background: #e6d3cf;
         position: absolute;
         top: 0;
         bottom: 0;
@@ -370,7 +370,7 @@ section {
         margin: 1rem;
         width: calc(100% / 3 - 2rem);
         height: 15rem;
-        background: rgba(0, 242, 167, 0.05);
+        background: rgba(230, 211, 207, 0.2);
         -webkit-border-radius: 6px;
                 border-radius: 6px;
         background-position: center;
