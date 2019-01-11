@@ -88,6 +88,8 @@ header {
                 text-decoration: underline #00f2a7;
         -webkit-text-decoration-style: double;
                 text-decoration-style: double; }
+      header .menu-con li a {
+        color: inherit; }
     header .menu-con.active {
       opacity: 1;
       -webkit-transform: scaleY(1) skewY(0deg) rotateX(0deg) translateY(0%);
@@ -390,8 +392,10 @@ section {
 @media (max-width: 550px) {
   header {
     padding: 0 1.5rem; }
-    header .contact-con div {
-      padding: 0.6rem 0rem; }
+    header .contact-con a {
+      padding: 0.6rem; }
+      header .contact-con a span {
+        display: none; }
   section {
     padding: 1rem 1.5rem; }
     section.top-main .head h1 {
