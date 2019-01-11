@@ -24,6 +24,7 @@
             document.querySelector(this.getAttribute('href')).scrollIntoView({
                 behavior: 'smooth'
             });
+            document.getElementsByClassName('menu-con')[0].classList.toggle('active');
         });
     });
 
