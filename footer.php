@@ -30,7 +30,6 @@
     document.getElementsByClassName('ham-menu')[0].addEventListener('click', function(){
         document.getElementsByClassName('menu-con')[0].classList.toggle('active');
     })
-    console.log('hi');
 
     jQuery('section.gallery-main .banner .arrow').on('click', function(){
         if(jQuery(this).data('pos') == "left") {

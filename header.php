@@ -41,7 +41,7 @@
         </div>
         <ul class="menu-con">
             <li><a href="/">Home</a></li>
-            <li><a href="#Gallery">Gallery</a></li>
+            <li><a href="#gallery">Gallery</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </header>
