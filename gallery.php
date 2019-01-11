@@ -1,5 +1,5 @@
 <?php $topcarousal = get_field('carousal'); ?>
-<section class="gallery-main">
+<section class="gallery-main" if="gallery">
     <div class="banner">
         <div class="arrow left" data-pos="left"></div>
         <div class="arrow right" data-pos="right"></div>

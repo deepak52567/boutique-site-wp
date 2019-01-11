@@ -40,8 +40,8 @@
             </a>
         </div>
         <ul class="menu-con">
-            <li>Home</li>
-            <li>Gallery</li>
-            <li>Contact</li>
+            <li><a href="/">Home</a></li>
+            <li><a href="#Gallery">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </header>
