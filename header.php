@@ -34,7 +34,7 @@
                 <i class="fas fa-phone"></i>
                 <span>Call Now</span>
             </a>
-            <a href="https://www.google.com/maps/place/Patiala+House+Court/@28.6153948,77.2325358,17z/data=!3m1!4b1!4m5!3m4!1s0x390cfd37b03665eb:0xdcb12d2b0556fc8a!8m2!3d28.6153948!4d77.2347245" target="_blank">
+            <a href="https://www.google.com/maps/place/Roorkee,+Uttarakhand/@29.8613648,77.8598063,13z/data=!3m1!4b1!4m5!3m4!1s0x390eb36e08b35119:0x798f5dc25ebd0a72!8m2!3d29.8542626!4d77.8880002" target="_blank">
                 <i class="fas fa-map-marked-alt"></i>
                 <span>Get Direction</span>
             </a>
