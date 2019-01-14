@@ -1,6 +1,6 @@
 <?php $topPage = get_field('top_title'); ?>
 <?php $footer = get_field('footer'); ?>
-<footer>
+<footer id="contact">
     <div class="head">
         <h1>Contact</h1>
         <p><?php echo $footer['contact_about']; ?></p>
@@ -60,6 +60,17 @@
             jQuery('section.gallery-main .banner .img-con').append(first);
             // jQuery('section.gallery-main .banner .img-con .banner-img:first-child').remove();
         }
+    });
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+    
+            document.getElementsByClassName('menu-con')[0].classList.toggle('active');
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
     });
 </script>
 </html>
