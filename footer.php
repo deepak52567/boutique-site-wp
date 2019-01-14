@@ -1,3 +1,32 @@
+<?php $topPage = get_field('top_title'); ?>
+<?php $footer = get_field('footer'); ?>
+<footer>
+    <div class="head">
+        <h1>Contact</h1>
+        <p><?php echo $footer['contact_about']; ?></p>
+    </div>
+    <div class="contact-foot">
+        <div class="left-pt-1"></div>
+        <div class="left-pt-2"></div>
+        <div class="right">
+            <div class="row">
+                <i class="fas fa-envelope"></i>
+                <p><?php echo $footer['email']; ?></p>
+            </div>
+            <div class="row">
+                <label for="">
+                    <i class="fas fa-phone"></i>
+                </label>
+                <p>+91-<?php echo $topPage['phone']; ?></p>
+            </div>
+            <div class="row">
+                <label for=""><i class="fas fa-map-marked-alt"></i></label>
+                <p><?php echo $footer['address']; ?></p>
+            </div>
+        </div>
+        <i class="fas fa-envelope"></i>
+    </div>
+</footer>
 </body>
 <script>
     // document.querySelectorAll('.arrow').forEach(element => {
